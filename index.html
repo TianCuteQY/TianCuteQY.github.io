@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal academic webpage for Qingyao Tian, AI for healthcare and medical imaging researcher."
+    />
+    <title>Qingyao Tian | Academic Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Qingyao Tian</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">Me</a>
+        <a href="#research">Research</a>
+        <a href="#research-arc">Arc</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#services">Services</a>
+        <a href="#news">News</a>
+      </nav>
+    </header>
+
+    <main id="home" class="page-shell">
+      <aside class="profile-card" aria-label="Profile">
+        <img class="avatar" src="assets/profile.jpg" alt="Qingyao Tian" />
+        <h1>Qingyao Tian</h1>
+        <p class="profile-title">AI for Healthcare Researcher</p>
+        <!-- <p class="profile-summary">
+          Ph.D. graduate from the Institute of Automation, Chinese Academy of
+          Sciences. -->
+        </p>
+
+        <ul class="profile-links" id="contact">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> China</li>
+          <li><a href="mailto:tqy00288@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a></li>
+          <li><a href="https://github.com/TianCuteQY"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://scholar.google.com/citations?user=vmpgDyEAAAAJ&hl=en"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+          <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-8341-3705"><i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID</a></li>
+          <li><a href="assets/CV-QingyaoTian.pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV</a></li>
+        </ul>
+      </aside>
+
+      <section class="content">
+        <section id="about" class="section section-intro">
+          <div class="section-heading">
+            <h2>About Me</h2>
+          </div>
+          <p>
+            I received my Ph.D. from the Institute of Automation,
+            Chinese Academy of Sciences (CASIA) in June 2026, advised by Professor 
+            <a href="https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129950.html">Hongbin Liu</a>.
+            My research focuses on AI for healthcare, medical imaging, and
+            foundation models, with recent work on bronchoscopy localization,
+            endoscopic depth estimation, and
+            robot-assisted surgery.
+          </p>
+          <p>
+            I am interested in building reliable learning systems that connect
+            medical visual perception, clinical navigation, and deployable
+            intelligent healthcare tools.
+          </p>
+        </section>
+
+        <section id="research" class="section">
+          <div class="section-heading">
+            <h2>Research Interests</h2>
+          </div>
+          <div class="tag-list">
+            <span>AI for Healthcare</span>
+            <span>Medical Imaging</span>
+            <span>Foundation Models</span>
+            <!-- <span>Endoscopic Vision</span> -->
+            <!-- <span>Bronchoscopy Localization</span> -->
+            <span>Robot-Assisted Surgery</span>
+          </div>
+        </section>
+
+        <section id="research-arc" class="section">
+          <div class="section-heading">
+            <h2>Research Arc</h2>
+          </div>
+
+          <div class="research-arc">
+            <article>
+              <time>2021 - 2026</time>
+              <h3>Geometry-Aware Bronchoscopy Navigation</h3>
+              <p>
+                I began with developing bronchoscopy localization methods to connect endoscopic observations
+                with pre-operative airway structure.
+              </p>
+            </article>
+            <article>
+              <time>2024 - present</time>
+              <h3>Generalizable Endoscopic Perception</h3>
+              <p>
+                I moved toward foundation models that transfer across patients, datasets,
+                and clinical environments for endoscopy-related clinical support.
+              </p>
+            </article>
+            <article>
+              <time>2025 - Present</time>
+              <h3>Vision-language Models for Healthcare</h3>
+              <p>
+                My recent research explores vision-language systems that can support
+                more reliable interventional healthcare workflows.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="section-heading">
+            <h2>Research Project: Vision Navigation for Interventional Surgeries</h2>
+          </div>
+          <article class="project-card">
+            <div class="project-copy">
+              <div class="project-meta">
+                <!-- <span>Research Assistant</span> -->
+                <time>Sep 2021 - Jun 2026</time>
+              </div>
+              <p class="project-affiliation">
+                CASIA
+              </p>
+              <p>
+                Developed image and video analysis methods for
+                endoscopy-related clinical support, including airway scene
+                understanding, depth estimation, and bronchoscopy localization
+                to help identify the position of the bronchoscope within the airway 
+                and support airway examination during clinical procedures.
+              </p>
+            </div>
+            <video class="project-video" autoplay muted loop playsinline controls preload="auto">
+              <source src="assets/demo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </article>
+        </section>
+
+        <section id="education" class="section">
+          <div class="section-heading">
+            <h2>Education</h2>
+          </div>
+          <div class="education-list">
+            <article class="education-item">
+              <div class="education-meta">
+                <span>Doctoral Study</span>
+                <time>2021 - 2026</time>
+              </div>
+              <div>
+                <h3>
+                    Institute of Automation, Chinese Academy of Sciences
+                  </a>
+                </h3>
+                <p>Ph.D. in Control Theory and Control Engineering</p>
+              </div>
+            </article>
+
+            <article class="education-item">
+              <div class="education-meta">
+                <span>Undergraduate Study</span>
+                <time>2017 - 2021</time>
+              </div>
+              <div>
+                <h3>North China Electric Power University</h3>
+                <p>B.E. in Automation</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="publications" class="section">
+          <div class="section-heading">
+            <h2>Publications</h2>
+          <!-- </div> -->
+          <div class="subsection-heading">
+            <h2>Selected Publications</h2>
+          </div>
+          <div class="selected-publication-list">
+            <article class="selected-publication">
+              <img class="paper-thumb" src="assets/papers/breath-vl.jpg" alt="BREATH-VL method overview" />
+              <div>
+                <span class="pub-year">2026</span>
+                <h3>BREATH-VL: Vision-Language-Guided 6-DoF Bronchoscopy Localization via Semantic-Geometric Fusion</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, B Yang, H Liao, X Huang, J Li, D Yi, H Liu</p>
+                <p class="pub-venue">arXiv preprint arXiv:2601.03713</p>
+                <p class="pub-snapshot"><strong>Snapshot:</strong> Builds a hybrid localization pipeline that turns airway anatomy and motion history into language prompts for landmark detection, branch localization, and insertion-depth reasoning, then combines those semantic cues with feature registration for 6-DoF pose estimation.</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2601.03713">Paper</a></div>
+              </div>
+            </article>
+
+            <article class="selected-publication">
+              <img class="paper-thumb" src="assets/papers/endomamba.jpg" alt="EndoMamba architecture diagram" />
+              <div>
+                <span class="pub-year">2025</span>
+                <h3>EndoMamba: An Efficient Foundation Model for Endoscopic Videos via Hierarchical Pre-training</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, H Liao, X Huang, B Yang, D Lei, S Ourselin, H Liu</p>
+                <p class="pub-venue">International Conference on Medical Image Computing and Computer-Assisted Intervention <span class="pub-badge">Oral</span></p>
+                <p class="pub-snapshot"><strong>Snapshot:</strong> Designs a real-time endoscopic video backbone with bidirectional Mamba blocks for frame-level spatial modeling and temporal Mamba reasoning for online streams, then pretrains it with masked reconstruction and feature alignment for reusable surgical video representations.</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2502.19090">Paper</a><a href="https://github.com/TianCuteQY/EndoMamba">GitHub</a></div>
+              </div>
+            </article>
+
+            <article class="selected-publication">
+              <img class="paper-thumb" src="assets/papers/endoomni.jpg" alt="EndoOmni robust self-learning framework" />
+              <div>
+                <span class="pub-year">2024</span>
+                <h3>EndoOmni: Zero-shot Cross-dataset Depth Estimation in Endoscopy by Robust Self-learning from Noisy Labels</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, Z Chen, H Liao, X Huang, L Li, S Ourselin, H Liu</p>
+                <p class="pub-venue">arXiv preprint arXiv:2409.05442</p>
+                <p class="pub-snapshot"><strong>Snapshot:</strong> Trains a depth foundation model for endoscopy with a teacher-student self-learning pipeline that estimates confidence in noisy labels and down-weights unreliable pixels through a weighted scale-and-shift invariant loss.</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2409.05442">Paper</a><a href="https://github.com/TianCuteQY/EndoOmni">GitHub</a></div>
+              </div>
+            </article>
+
+            <article class="selected-publication">
+              <img class="paper-thumb" src="assets/papers/bronchotrack.jpg" alt="BronchoTrack tracking framework" />
+              <div>
+                <span class="pub-year">2024</span>
+                <h3>BronchoTrack: Airway Lumen Tracking for Branch-Level Bronchoscopic Localization</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, H Liao, X Huang, B Yang, J Wu, J Chen, L Li, H Liu</p>
+                <p class="pub-venue">IEEE Transactions on Medical Imaging 44 (3), 1321-1333</p>
+                <p class="pub-snapshot"><strong>Snapshot:</strong> Introduces multi-object tracking of airway lumens to maintain temporal identity through fast camera motion, then associates tracked detections with a semantic airway graph for branch-level localization without patient-specific retraining.</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2402.12763">Paper</a></div>
+              </div>
+            </article>
+
+            <article class="selected-publication">
+              <img class="paper-thumb" src="assets/papers/pans.jpg" alt="PANS probabilistic navigation system" />
+              <div>
+                <span class="pub-year">2024</span>
+                <h3>PANS: Probabilistic Airway Navigation System for Real-Time Robust Bronchoscope Localization</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, Z Chen, H Liao, X Huang, B Yang, L Li, H Liu</p>
+                <p class="pub-venue">International Conference on Medical Image Computing and Computer-Assisted Intervention</p>
+                <p class="pub-snapshot"><strong>Snapshot:</strong> Frames bronchoscope localization as probabilistic pose estimation, propagating pose hypotheses with depth-based motion inference and scoring them with bronchial semantic analysis to improve robustness in visually ambiguous branches.</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2407.05554">Paper</a></div>
+              </div>
+            </article>
+
+          </div>
+
+          <div class="subsection-heading">
+            <h2>All Publications</h2>
+          </div>
+          <div class="all-publication-list">
+            <article class="all-publication">
+              <span class="pub-year">2026</span>
+              <div>
+                <h3>BREATH-VL: Vision-Language-Guided 6-DoF Bronchoscopy Localization via Semantic-Geometric Fusion</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, B Yang, H Liao, X Huang, J Li, D Yi, H Liu</p>
+                <p class="pub-venue">arXiv preprint arXiv:2601.03713</p>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2026</span>
+              <div>
+                <h3>Progressive Curriculum Learning with Scale-Enhanced U-Net for Continuous Airway Segmentation</h3>
+                <p class="pub-authors">B Yang, <strong class="author-me">Q Tian</strong>, H Liao, X Huang, J Wu, J Hu, H Liu</p>
+                <p class="pub-venue">BMC Medical Imaging 26 (1), 43</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2410.18456">Paper</a><a href="https://github.com/Beryl2000/SE-UNet-AirSeg">GitHub</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2025</span>
+              <div>
+                <h3>EndoMamba: An Efficient Foundation Model for Endoscopic Videos via Hierarchical Pre-training</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, H Liao, X Huang, B Yang, D Lei, S Ourselin, H Liu</p>
+                <p class="pub-venue">International Conference on Medical Image Computing and Computer-Assisted Intervention <span class="pub-badge">Oral</span></p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2502.19090">Paper</a><a href="https://github.com/TianCuteQY/EndoMamba">GitHub</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2025</span>
+              <div>
+                <h3>Harnessing Foundation Models for Robust and Generalizable 6-DOF Bronchoscopy Localization</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, H Liao, X Huang, B Yang</p>
+                <p class="pub-venue">MICCAI CREATE 2025, 127</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2505.24249">Paper</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2025</span>
+              <div>
+                <h3>EndoMatcher: Generalizable Endoscopic Image Matcher via Multi-Domain Pre-training for Robot-Assisted Surgery</h3>
+                <p class="pub-authors">B Yang, <strong class="author-me">Q Tian</strong>, Y Geng, H Liao, X Huang, J Luo, H Liu</p>
+                <p class="pub-venue">arXiv preprint arXiv:2508.05205</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2508.05205">Paper</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2024</span>
+              <div>
+                <h3>EndoOmni: Zero-shot Cross-dataset Depth Estimation in Endoscopy by Robust Self-learning from Noisy Labels</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, Z Chen, H Liao, X Huang, L Li, S Ourselin, H Liu</p>
+                <p class="pub-venue">arXiv preprint arXiv:2409.05442</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2409.05442">Paper</a><a href="https://github.com/TianCuteQY/EndoOmni">GitHub</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2024</span>
+              <div>
+                <h3>BronchoTrack: Airway Lumen Tracking for Branch-Level Bronchoscopic Localization</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, H Liao, X Huang, B Yang, J Wu, J Chen, L Li, H Liu</p>
+                <p class="pub-venue">IEEE Transactions on Medical Imaging 44 (3), 1321-1333</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2402.12763">Paper</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2024</span>
+              <div>
+                <h3>DD-VNB: A Depth-Based Dual-Loop Framework for Real-Time Visually Navigated Bronchoscopy</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, H Liao, X Huang, J Chen, Z Zhang, B Yang, S Ourselin, H Liu</p>
+                <p class="pub-venue">2024 IEEE/RSJ International Conference on Intelligent Robots and Systems <span class="pub-badge">Oral</span></p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2403.01683">Paper</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2024</span>
+              <div>
+                <h3>PANS: Probabilistic Airway Navigation System for Real-Time Robust Bronchoscope Localization</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, Z Chen, H Liao, X Huang, B Yang, L Li, H Liu</p>
+                <p class="pub-venue">International Conference on Medical Image Computing and Computer-Assisted Intervention</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2407.05554">Paper</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2024</span>
+              <div>
+                <h3>BronchoCopilot: Towards Autonomous Robotic Bronchoscopy via Multimodal Reinforcement Learning</h3>
+                <p class="pub-authors">J Zhao, H Chen, <strong class="author-me">Q Tian</strong>, J Chen, B Yang, Z Zhang, H Liu</p>
+                <p class="pub-venue">2024 IEEE/RSJ International Conference on Intelligent Robots and Systems</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2403.01483">Paper</a></div>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2024</span>
+              <div>
+                <h3>Multi-Stage Airway Segmentation in Lung CT Based on Multi-scale Nested Residual UNet</h3>
+                <p class="pub-authors">B Yang, H Liao, X Huang, <strong class="author-me">Q Tian</strong>, J Wu, J Hu, H Liu</p>
+                <p class="pub-venue">CoRR</p>
+              </div>
+            </article>
+            <article class="all-publication">
+              <span class="pub-year">2024</span>
+              <div>
+                <h3>Enhancing Bronchoscopy Depth Estimation through Synthetic-to-Real Domain Adaptation</h3>
+                <p class="pub-authors"><strong class="author-me">Q Tian</strong>, H Liao, X Huang, L Li, H Liu</p>
+                <p class="pub-venue">ICRA 2024 Workshop on C4SR+</p>
+                <div class="pub-actions"><a href="https://arxiv.org/abs/2411.04404">Paper</a></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="services" class="section">
+          <div class="section-heading">
+            <h2>Services</h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <span>Conference Reviewer</span>
+              <p>MICCAI 2026, IROS 2026</p>
+            </article>
+            <article class="service-card">
+              <span>Journal Reviewer</span>
+              <p>IEEE Transactions on Medical Imaging (TMI), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="news" class="section two-column">
+          <div>
+            <div class="section-heading">
+              <h2>News Updates</h2>
+            </div>
+            <ul class="compact-list">
+              <li><span>Jul 2026</span> Will join Ant Group to work on healthcare research.</li>
+              <li><span>Jun 2026</span> Completed Ph.D. study at the Institute of Automation, Chinese Academy of Sciences.</li>
+              <!-- <li><span>2026</span> BREATH-VL preprint released.</li> -->
+            </ul>
+          </div>
+          <div>
+            <div class="section-heading">
+              <h2>Profiles & Links</h2>
+            </div>
+            <ul class="compact-list">
+              <li>
+                <span>Scholar</span>
+                <a href="https://scholar.google.com/citations?user=vmpgDyEAAAAJ&hl=en">
+                  Google Scholar profile
+                </a>
+              </li>
+              <li><span>Email</span> <a href="mailto:tqy00288@gmail.com">tqy00288@gmail.com</a></li>
+              <!-- <li><span>GitHub</span> <a href="https://github.com/TianCuteQY">TianCuteQY</a></li> -->
+              <li><span>CV</span> <a href="assets/CV-QingyaoTian.pdf">Qingyao Tian CV</a></li>
+              <!-- <li><span>ORCID</span> <a href="https://orcid.org/my-orcid?orcid=0000-0001-8341-3705">0000-0001-8341-3705</a></li> -->
+            </ul>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Qingyao Tian. Last updated June 2026.</p>
+    </footer>
+    <script>
+      document.querySelectorAll("video[autoplay]").forEach((video) => {
+        video.muted = true;
+        video.play().catch(() => {});
+      });
+    </script>
+  </body>
+</html>
