@@ -635,6 +635,10 @@ time {
   gap: 28px;
 }
 
+.stacked-section > div + div {
+  margin-top: 34px;
+}
+
 .compact-list {
   display: grid;
   gap: 12px;
